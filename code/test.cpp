@@ -13,7 +13,6 @@ int main()
 	std::string file = buffer;
 
 	std::cout << path + file << std::endl;
-	while (1);
 
 	std::cout << "Hello World!";
 	return 0;
