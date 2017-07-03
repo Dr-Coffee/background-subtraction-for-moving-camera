@@ -7,6 +7,7 @@
 
 int main()
 {
+	//Testing
 	std::string path = "E:/YUsStudio/Research__2_Background_Modeling/dataset/1/";
 	char buffer[100];
 	sprintf_s(buffer, "%05d%s", 5, ".png");
