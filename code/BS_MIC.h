@@ -4,4 +4,5 @@ class BackgroundMIC
 {
 public:
 	int counter;
+	bool sign;
 };
