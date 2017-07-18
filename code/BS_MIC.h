@@ -3,5 +3,5 @@
 class BackgroundMIC
 {
 public:
-	int counter;
+	int counter; 
 };
