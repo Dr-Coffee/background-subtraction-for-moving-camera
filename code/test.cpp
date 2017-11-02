@@ -7,14 +7,16 @@
 
 int main()
 {
+	//Testing
 	std::string path = "E:/YUsStudio/Research__2_Background_Modeling/dataset/1/";
 	char buffer[100];
 	sprintf_s(buffer, "%05d%s", 5, ".png");
 	std::string file = buffer;
 
 	std::cout << path + file << std::endl;
-	while (1);
 
 	std::cout << "Hello World!";
-	return 0;
+	return 0; 
+	
+	
 }
