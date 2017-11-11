@@ -5,10 +5,14 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp> 
 
+#include "BS_MIC.h"
+
 int main()
 {
 	//Testing
 	std::string path = "E:/YUsStudio/Research__2_Background_Modeling/dataset/1/";
+
+
 	char buffer[100];
 	sprintf_s(buffer, "%05d%s", 5, ".png");
 	std::string file = buffer;
@@ -16,6 +20,7 @@ int main()
 	std::cout << path + file << std::endl;
 
 	std::cout << "Hello World!";
+	while (1);
 	return 0; 
 	
 	
