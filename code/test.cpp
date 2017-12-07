@@ -5,6 +5,7 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp> 
 
+
 int main()
 {
 	//Testing
@@ -16,7 +17,5 @@ int main()
 	std::cout << path + file << std::endl;
 
 	std::cout << "Hello World!";
-	return 0; 
-
-	
+	return 0; 	
 }
